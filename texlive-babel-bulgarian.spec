@@ -1,16 +1,17 @@
-# revision 30258
+# revision 31902
 # category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
+# catalog-ctan /macros/latex/contrib/babel-contrib/bulgarian
+# catalog-date 2013-10-14 16:08:13 +0200
+# catalog-license lppl1.3
+# catalog-version 1.2g
 Name:		texlive-babel-bulgarian
-Version:	20131013
+Epoch:		1
+Version:	1.2g
 Release:	1
-Summary:	TeXLive babel-bulgarian package
+Summary:	(Babel contributed support for Bulgarian
 Group:		Publishing
-URL:		http://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
+URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/bulgarian
+License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-bulgarian.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-bulgarian.doc.tar.xz
 Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-bulgarian.source.tar.xz
@@ -20,7 +21,8 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-TeXLive babel-bulgarian package.
+The package provides support for documents in Bulgarian (or
+simply containing some Bulgarian text).
 
 %post
     %{_sbindir}/texlive.post
@@ -33,6 +35,7 @@ TeXLive babel-bulgarian package.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/generic/babel-bulgarian/bulgarian.ldf
+%doc %{_texmfdistdir}/doc/generic/babel-bulgarian/README
 %doc %{_texmfdistdir}/doc/generic/babel-bulgarian/bulgarian.pdf
 #- source
 %doc %{_texmfdistdir}/source/generic/babel-bulgarian/bulgarian.dtx
