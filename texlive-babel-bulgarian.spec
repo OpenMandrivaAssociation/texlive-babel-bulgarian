@@ -1,7 +1,7 @@
 Name:		texlive-babel-bulgarian
 Epoch:		1
 Version:	31902
-Release:	1
+Release:	2
 Summary:	(Babel contributed support for Bulgarian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/bulgarian
