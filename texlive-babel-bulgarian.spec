@@ -4,7 +4,7 @@ Version:	31902
 Release:	2
 Summary:	(Babel contributed support for Bulgarian
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/bulgarian
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/bulgarian
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-bulgarian.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-bulgarian.doc.r%{version}.tar.xz
